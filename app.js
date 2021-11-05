@@ -19,27 +19,27 @@ const itemsSchema = ({
 
 const Item = mongoose.model("Item", itemsSchema);
 
-const item1 = new Item({
-  name: "Welcome to your todo list!"
-});
+// const item1 = new Item({
+//   name: "Welcome to your todo list!"
+// });
 
-const item2 = new Item({
-  name: "Click the + button to start adding"
-});
+// const item2 = new Item({
+//   name: "Click the + button to start adding"
+// });
 
-const item3 = new Item({
-  name: "make the best of today!"
-});
+// const item3 = new Item({
+//   name: "make the best of today!"
+// });
 
-const defaultItems = [item1, item2, item3];
+// const defaultItems = [item1];
 
-Item.insertMany(defaultItems, function(err) {
-  if (err) {
-    console.log(err)
-  } else {
-    console.log("Successfully inserted ")
-  }
-})
+// Item.insertMany(defaultItems, function(err) {
+//   if (err) {
+//     console.log(err)
+//   } else {
+//     console.log("Successfully inserted ")
+//   }
+// })
 
 
 // let items = [];
